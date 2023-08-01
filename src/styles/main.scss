@@ -1,11 +1,19 @@
 @use 'hero';
+@use './components/info_bar';
+@use './components/buttons';
+@use 'party';
+@use 'variables';
+
+
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: roboto, sans-serif;
-    color: rgb(189, 198, 248);
+    color: variables.$corDeTexto;
+    list-style: none;
+    
 }
 
 .container {
